@@ -4,7 +4,7 @@ import axios from 'axios'
 import Card from './components/ui/Card';
 import Search from './components/ui/Search'
 import Header from './components/ui/Header'
-import Filter from './components/ui/Filter';
+//import Filter from './components/ui/Filter';
 
 function App() {
 
