@@ -17,14 +17,21 @@ export default function CardItem({ item }) {
               Email: <span id="email">{item.Email}</span>
             </div>
             <div>
+              Phone Number: <span id="phone">{item.PhoneNumber}</span>
+            </div>
+            <div>
               Gender: <span id="city">{item.Gender}</span>
+            </div>
+            <div>
+              URL: <span id="url">{item.DomainName}</span>
             </div>
           </div>
         </div>
         <div className="card-back">
           <ul>
-            <li>{item.Gender}</li>
+            <li>{item.CreditCardType}</li>
           </ul>
+          <h1>{item.CreditCardNumber}</h1>
         </div>
       </div>
     </div>

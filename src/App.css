@@ -71,13 +71,13 @@ input[type='text'] {
   cursor: pointer;
   background-color: transparent;
   height: 11em;
-  width: 20em;
+  width: 22em;
   perspective: 1000px;
 }
 
 .card h1 {
   font-size: 25px;
-  border-bottom: 1px #fff solid;
+  letter-spacing: 4px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
