@@ -35,7 +35,10 @@ function App() {
   const indexOfLastProfile = currentPage * profilePerPage;
   const indexOfFirstProfile = indexOfLastProfile - profilePerPage;
   const currentProfile = items.slice(indexOfFirstProfile, indexOfLastProfile);
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const paginate = (e, pageNumber) => {
+    e.preventDefault();
+    setCurrentPage(pageNumber)
+  };
 
   return (
     <div className="container">

@@ -13,7 +13,7 @@ export default function Pagination({profilePerPage, totalProfiles, paginate}) {
             <ul className="pagination">
                 {pageNumbers.map(number => (
                     <li key={number} className="page-item">
-                        <a onClick={() => paginate(number)} className="page-link">
+                        <a onClick={(e) => paginate(e, number)} className="page-link" href="!#">
                             {number}
                         </a>
                     </li>
